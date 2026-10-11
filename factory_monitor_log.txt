@@ -1,0 +1,27 @@
+Monitor
+Model Accuracy: 100.00%
+
+Machine_A: {'temperature': 74.17358260844476, 'pressure': 21.834028761773194, 'vibration': 2.5272944783993996, 'current': 14.616010661625662, 'rpm': 2595}
+Predicted State: OVERHEATING
+
+Machine_B: {'temperature': 92.15718723353217, 'pressure': 45.000466034206795, 'vibration': 3.8674394338019447, 'current': 8.69452626373374, 'rpm': 2208}
+Predicted State: OVERHEATING
+
+Machine_C: {'temperature': 64.54303962923197, 'pressure': 25.330568574302507, 'vibration': 1.252326552322838, 'current': 28.0151640388298, 'rpm': 2849}
+Predicted State: MOTOR_OVERLOAD
+
+Incident
+Machine_C | Priority 1 | Critical overload | Action: Cut power
+Machine_B | Priority 2 | High temperature | Action: Stop machine
+
+Dashboard
+Machines monitored: 3
+Active incidents: 2
+Highest priority: Critical overload
+
+Security Validation
+Machine_A: Sensor data valid
+Machine_B: Sensor data valid
+Machine_C: Sensor data valid
+
+Monitoring complete.
